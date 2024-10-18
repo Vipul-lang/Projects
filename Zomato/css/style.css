@@ -1,0 +1,92 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #e60000; /* Red theme */
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('/img/bg.png');
+    background-size: cover;
+    background-position: center;
+   
+}
+
+main img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+main p {
+    color:white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 50%;
+    max-width: 500px;
+    border: 2px solid #e60000;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer span {
+    color: #e60000;
+}
